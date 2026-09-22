@@ -49,7 +49,7 @@ export const Tienda = () => {
                     })
                 }
             </div>
-        </div>
+        <h2>Gracias por visitar nuestra tienda<br />by Daniel Pinilla</h2></div>
     )
 }
 
