@@ -1,0 +1,71 @@
+/* ---------- Estilos para la Tienda (Laboratorio 3 - useEffect) ---------- */
+
+body {
+    text-align:center;
+  box-align: center;
+  background-color: #f7f7f9;
+}
+
+.tienda-contenedor {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.tienda-titulo {
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.tienda-estado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 1rem;
+}
+
+.producto-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.producto-imagen {
+  height: 220px;
+  object-fit: contain;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.producto-nombre {
+  font-size: 1rem;
+  font-weight: 600;
+  min-height: 3rem;
+}
+
+.producto-descripcion {
+  font-size: 0.85rem;
+  color: #6c757d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.producto-precio {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 0;
+}
