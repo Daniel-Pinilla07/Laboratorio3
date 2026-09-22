@@ -8,7 +8,7 @@ export const Tienda = () => {
     useEffect(() => {
         //Utilizamos promesas
         async function obtenerProductos() {
-            const response = await fetch('https://fakestoreapi.com/products');
+            const response = await fetch('https://fakestoreapi.com/products?limit=10&offset=0');
             //Creo una constante para guardar los datos
             const data = await response.json();
             //Guardar resultados en la variable productos
